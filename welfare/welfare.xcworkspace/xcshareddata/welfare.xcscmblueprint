@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4dbdf7b9-57cd-4c6f-86c1-e4047deee8d0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4dbdf7b9-57cd-4c6f-86c1-e4047deee8d0" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4dbdf7b9-57cd-4c6f-86c1-e4047deee8d0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EDC49508-B2EC-423F-AE85-299B1CE07B7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4dbdf7b9-57cd-4c6f-86c1-e4047deee8d0" : "welfare410\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "welfare",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "1\/welfare\/welfare.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/51913902%40qq.com@svn.sinacloud.com\/welfare410",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4dbdf7b9-57cd-4c6f-86c1-e4047deee8d0"
+    }
+  ]
+}

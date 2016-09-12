@@ -1,0 +1,31 @@
+//
+//  welfare-Prefix.pch
+//  welfare
+//
+//  Created by hazama on 16/6/16.
+//  Copyright © 2016年 hazama. All rights reserved.
+//
+
+#ifndef welfare_Prefix_pch
+#define welfare_Prefix_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* welfare_Prefix_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#ifndef UseProductionServer
+   #define UseProductionServer 0
+#endif
+
+
+/*!
+ 每一个视图控制器即将被显示之前都会发送的通知，主要用来更新是否允许滑出全局菜单
+ */
+#define NotificationViewControllerViewWillAppear @"ViewControllerViewWillAppear"
