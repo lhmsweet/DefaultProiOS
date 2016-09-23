@@ -24,8 +24,13 @@
    #define UseProductionServer 0
 #endif
 
+#define BlockWeakObject(obj, wobj)  __weak __typeof__((__typeof__(obj))obj) wobj = obj
+#define BlockStrongObject(obj, sobj) __typeof__((__typeof__(obj))obj) sobj = obj
+
 
 /*!
  每一个视图控制器即将被显示之前都会发送的通知，主要用来更新是否允许滑出全局菜单
  */
 #define NotificationViewControllerViewWillAppear @"ViewControllerViewWillAppear"
+
+#define BaseUrl @"http://123.56.252.29/"
